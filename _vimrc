@@ -220,8 +220,8 @@ set laststatus=2            " Always show statusline, even if only 1 window.
 set statusline=[%l,%v\ %P%M]\ %f\ %r%h%w\ (%{&ff})\ %{fugitive#statusline()}
 
 " displays tabs with :set list & displays when a line runs off-screen
-set listchars=tab:>-,eol:$,trail:-,precedes:<,extends:>
-set list
+"set listchars=tab:>-,eol:$,trail:-,precedes:<,extends:>
+"set list
 
 """ Searching and Patterns
 set ignorecase              " Default to using case insensitive searches,
@@ -232,14 +232,14 @@ set incsearch               " Incrementally search while typing a /regex
 
 """" Display
 if has("gui_running")
-    colorscheme desert
+    colorscheme base16-tomorrow
     " Remove menu bar
     set guioptions-=m
 
     " Remove toolbar
     set guioptions-=T
 else
-    colorscheme torte
+    colorscheme base16-tomorrow
 endif
 
 " Paste from clipboard
@@ -305,4 +305,6 @@ if filereadable($VIRTUAL_ENV . '/.vimrc')
     source $VIRTUAL_ENV/.vimrc
 endif
 
-set colorcolumn=79
+" set colorcolumn=79
+
+set guifont=Menlo:h13
