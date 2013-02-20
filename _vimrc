@@ -192,6 +192,8 @@ set shiftround              " rounds indent to a multiple of shiftwidth
 set matchpairs+=<:>         " show matching <> (html mainly) as well
 set foldmethod=indent       " allow us to fold on indents
 set foldlevel=99            " don't fold by default
+set mouse=a
+set clipboard=unnamed
 
 " don't outdent hashes
 inoremap # #
