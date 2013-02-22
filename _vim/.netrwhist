@@ -1,3 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Volumes/Big/dev/isty/server/smarter'
+let g:netrw_dirhist_2='/Volumes/Big/dev/isty/server'
+let g:netrw_dirhist_3='/Users/tom'
+let g:netrw_dirhist_4='/Volumes/Big/dev/Mocom/ACP-Unity/app/unity/project/Assets/Scripts'
+let g:netrw_dirhist_5='/Volumes/Big/dev/isty/sentry'
+let g:netrw_dirhist_6='/Users/tom'
